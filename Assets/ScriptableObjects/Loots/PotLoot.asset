@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bccb87379c1a195438792896f79c82b2, type: 3}
+  m_Name: PotLoot
+  m_EditorClassIdentifier: 
+  loots:
+  - item: {fileID: 11400000, guid: 9a5bf4e7eff3b4744a878800b839b3f9, type: 2}
+    probability: 25
+  - item: {fileID: 11400000, guid: c96cc93d4d6ad98499b564056ce58643, type: 2}
+    probability: 25
+  - item: {fileID: 11400000, guid: 156563db2a3572c46b01d77aa5dc1881, type: 2}
+    probability: 25
+  - item: {fileID: 11400000, guid: 0c5ebfdbc9cc0074dbb899278d12a701, type: 2}
+    probability: 25

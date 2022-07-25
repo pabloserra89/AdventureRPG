@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd76e05d44831b246a76f9d6c795e1bb, type: 3}
+  m_Name: PlayerInventory
+  m_EditorClassIdentifier: 
+  inventoryUISignal: {fileID: 11400000, guid: aead68c8f849bc145a13f4554b68f173, type: 2}
+  items:
+  - {fileID: 11400000, guid: 5cfd70933a6ad1b4a9ab962b1dccdf28, type: 2}
+  - {fileID: 11400000, guid: 6ab4e50dd848a0f41a610b475be31166, type: 2}
+  - {fileID: 11400000, guid: 0c5ebfdbc9cc0074dbb899278d12a701, type: 2}
+  - {fileID: 11400000, guid: c96cc93d4d6ad98499b564056ce58643, type: 2}
+  - {fileID: 11400000, guid: 9a5bf4e7eff3b4744a878800b839b3f9, type: 2}
+  numberOfKeys: 99
+  playerCoins: {fileID: 11400000, guid: 27a3287c7c995c34b9d670ca142dcf30, type: 2}
+  coinsSignal: {fileID: 11400000, guid: 44131d1177200854f8f2a72d9235ac26, type: 2}
+  isOpen: 0

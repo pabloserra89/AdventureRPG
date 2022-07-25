@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Breakable
+  - Enemy
+  - PlayerHit
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PlayerHitBox
+  - PlayerHurtBox
+  - HitableCollidable
+  - EnemyHurtBox
+  - EnemyHitBox
+  - EnemyHurtHitBox
+  - Minimap
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 297972977
+    locked: 0
+  - name: Objects
+    uniqueID: 3044206525
+    locked: 0
+  - name: Player
+    uniqueID: 3746706647
+    locked: 0
+  - name: Projectile
+    uniqueID: 1629829041
+    locked: 0
+  - name: Ceiling
+    uniqueID: 571204983
+    locked: 0
+  - name: UI
+    uniqueID: 129335243
+    locked: 0

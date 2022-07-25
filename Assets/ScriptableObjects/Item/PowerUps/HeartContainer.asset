@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030c2505cad50cd4eb5c0d31b5099637, type: 3}
+  m_Name: HeartContainer
+  m_EditorClassIdentifier: 
+  itemPhysical: {fileID: 8485985713652368854, guid: 402afe545c67f534781fa69c54a27d36,
+    type: 3}
+  itemName: Heart Container
+  description: Permanently increases maximum life by 1

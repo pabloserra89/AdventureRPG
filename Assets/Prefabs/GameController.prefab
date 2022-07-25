@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5900209448717261303
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5900209448717261302}
+  - component: {fileID: 938806323551379059}
+  - component: {fileID: 1552014907}
+  - component: {fileID: 6820598724610100504}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5900209448717261302
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5900209448717261303}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &938806323551379059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5900209448717261303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0c810fe93565d147a6bca65469be8a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeImage: {fileID: 0}
+--- !u!114 &1552014907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5900209448717261303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0d7a421026ce0949af1f0fd0f25884b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: {fileID: 11400000, guid: afb8213cc5777f4488cb33c84f449419, type: 2}
+  houseTimeline: {fileID: 11400000, guid: 7ff90de0948a97e479f1c37187bcd817, type: 2}
+  playerMage: {fileID: 11400000, guid: ad3e9d65ac252be41bef3e816da10d52, type: 2}
+  playerPosition: {fileID: 11400000, guid: 4ea43cc2ae7e0fd4fbd259669dfaf5c4, type: 2}
+  playerCurrentHealth: {fileID: 11400000, guid: 6ae644dac8a8dc344a56dadc452b38b2,
+    type: 2}
+  playerMaxHealth: {fileID: 11400000, guid: cf63d12de3dc5bd44a93b53cd8c064bb, type: 2}
+  playerCurrentMana: {fileID: 11400000, guid: e36564e85160082499d77421a2521d27, type: 2}
+  playerMaxMana: {fileID: 11400000, guid: 376dac2dcd206aa42b4fce0623099682, type: 2}
+  playerCoins: {fileID: 11400000, guid: 27a3287c7c995c34b9d670ca142dcf30, type: 2}
+  playerInventory: {fileID: 11400000, guid: 0f1391f642bc9c44981340177e6a6b4d, type: 2}
+--- !u!114 &6820598724610100504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5900209448717261303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 980aea242fa3d3e4cb44433661e051e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bow: {fileID: 11400000, guid: 6ab4e50dd848a0f41a610b475be31166, type: 2}
+  sword: {fileID: 11400000, guid: 5cfd70933a6ad1b4a9ab962b1dccdf28, type: 2}
+  smallHealthPotion: {fileID: 11400000, guid: c96cc93d4d6ad98499b564056ce58643, type: 2}
+  smallManaPotion: {fileID: 11400000, guid: 9a5bf4e7eff3b4744a878800b839b3f9, type: 2}
