@@ -4,7 +4,15 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public StringValue sceneToLoad;
+    [SerializeField] private StringValue sceneToLoad;
+
+    [SerializeField] private GameObject controlsScreen;
+
+    public void Update()
+    {
+        if (Input.GetButtonDown("Cancel"))
+            HideControls();
+    }
 
     public void NewGame()
     {
@@ -14,6 +22,16 @@ public class MainMenu : MonoBehaviour
     public void Quit()
     {
         Application.Quit();
+    }
+
+    public void ShowControls()
+    {
+        controlsScreen.SetActive(true);
+    }
+
+    private void HideControls()
+    {
+        controlsScreen.SetActive(false);
     }
 
     private IEnumerator NewSceneCo()

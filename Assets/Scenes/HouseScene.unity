@@ -5967,7 +5967,7 @@ PrefabInstance:
     - target: {fileID: 7734646552183002246, guid: 6e2924cc7747f8242ba087462ad56537,
         type: 3}
       propertyPath: m_Text
-      value: Where could have gone dad?
+      value: Where could dad have gone?
       objectReference: {fileID: 0}
     - target: {fileID: 7734646552637946744, guid: 6e2924cc7747f8242ba087462ad56537,
         type: 3}

@@ -16,7 +16,7 @@ MonoBehaviour:
     type: 3}
   itemName: Mana Potion
   description: Restores 20 mana
-  quantity: 55
+  quantity: 0
   isKey: 0
   isUsable: 1
   isUnique: 0

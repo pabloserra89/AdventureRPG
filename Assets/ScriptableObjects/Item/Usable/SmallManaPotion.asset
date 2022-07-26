@@ -16,7 +16,7 @@ MonoBehaviour:
     type: 3}
   itemName: Small Mana Potion
   description: Restores 10 mana
-  quantity: 56
+  quantity: 5
   isKey: 0
   isUsable: 1
   isUnique: 0
