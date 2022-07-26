@@ -3,7 +3,7 @@
 <h3 align="left">Hi Everybody!</h3>
 <h3 align="left">In this project I will try to develop a ZeldaLike game with the purpose of learn how to develop its mechanics</h3>
 
-It has:
+The mechanics developed by now are:
 - Health System with Hearts (partially damaged/healed)
 - Dash ability
 - Magic ability (Mana/Magic system)
