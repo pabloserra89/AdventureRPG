@@ -16,7 +16,7 @@ The mechanics developed by now are:
 - Room transition
 - Scene transition
 
-Everything can be improve, but I rather tring new mechanics that spend a lot of time in a particular one.
+Everything can be improve, but I rather try new mechanics that spend a lot of time in a particular one.
 
 You can try it by downloading the latest stable release:
 https://www.mediafire.com/file/7iw25rq6bmltu8v/AdventureRPG+-+Game.zip/file
